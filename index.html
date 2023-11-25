@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EMC Portfolio Profile</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+<section id="one">
+		<div class="banner">
+		<div class="navbar" class="responsive">
+			<a href="#one"><img  class="logo" href="#one" src="" alt="LOGO">
+			<ul>
+				<li><a href="#one" onclick="document.getElementById('nav-toggle').checked = false;">Home</a></li>
+				<li><a href="#two" onclick="document.getElementById('nav-toggle').checked = false;">About</a></li>
+				<li><a href="#three" onclick="document.getElementById('nav-toggle').checked = false;">Skills</a></li>
+				<li><a href="#four" onclick="document.getElementById('nav-toggle').checked = false;">Portfolio</a></li>
+				<li><a href="#contact" onclick="document.getElementById('nav-toggle').checked = false;">Contact</a></li>
+			</ul>
+		</div>
+
+		<div class="Home">
+			<div class="home-text">
+				<h1> Hi! I am April</h1>
+				<br>
+				<p> EMC STUDENT</p>
+			</div>
+	
+		</div>
+		
+</section>
+
+<section id="two">
+		<div class="content-img">
+		<img class="about-me" src="profilePic.png">
+	</div>
+	
+	<div class="About">
+    <!-- change ang about-->
+
+		<h1>ABOUT ME</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	</div>
+
+		
+</section>
+
+<section id="three">
+	<h1>SKILLS</h1>
+
+  <!-- change lng name ka mga skills moc-->
+
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>PHOTOSHOP</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, 
+      </p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>PHOTOSHOP</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, </p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>PHOTOSHOP</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, </p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>PHOTOSHOP</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, </p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>PHOTOSHOP</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, </p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>PHOTOSHOP</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, </p>
+    </div>
+  </div>
+</div>
+		
+</section>
+
+
+<section id="four">
+	<h2 >PORTFOLIO</h2>
+
+<div class="libary">
+<!-- segrate icons-->
+<!-- change ang tanan nga src into sa file name ka icon ka mga eh filter like graphics, trad, video basta mua-->
+
+  <div class="row">
+    <div class="column">
+      <img src="graphic.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="graphic.png" style="width:100%" onclick="openModal2();currentSlide2(1)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="graphic.png" style="width:100%" onclick="openModal3();currentSlide3(1)" class="hover-shadow cursor">
+    </div>
+  </div>
+
+  <!--modal1 -->
+  <!-- change ang tanan nga src into sa file name ka picture mo dapat pareho sa both ang pic-->
+
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+        <!-- eh copy paste lng and division kung madugang ka another picture-->
+
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="profilePic.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="profilePic.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="profilePic.png" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="profilePic.png" style="width:100%">
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+       <!-- dapat pareho ang picture mo kung ano ang picture sa babaw ka jah .. kag eh copy paste man ang and div if mag dugang ka pic-->
+
+
+      <div class="column">
+        <img class="demo cursor" src="profilePic.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="profilePic.png" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="profilePic.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="profilePic.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- modal2 -->
+<!-- change ang tanan nga src into sa file name ka picture mo dapat pareho sa both ang pic-->
+<div id="myModal2" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <!-- eh copy paste lng and division kung madugang ka another picture-->
+
+    <div class="mySlides2">
+      <div class="numbertext">1 / 4</div>
+      <img src="a.png" style="width:100%">
+    </div>
+
+    <div class="mySlides2">
+      <div class="numbertext">2 / 4</div>
+      <img src="a.png" style="width:100%">
+    </div>
+
+    <div class="mySlides2">
+      <div class="numbertext">3 / 4</div>
+      <img src="a.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides2">
+      <div class="numbertext">4 / 4</div>
+      <img src="a.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption2"></p>
+    </div>
+
+     <!-- dapat pareho ang picture mo kung ano ang picture sa babaw ka jah .. kag eh copy paste man ang and div if mag dugang ka pic-->
+
+    <div class="column">
+      <img class="demo2 cursor" src="a.png" style="width:100%" onclick="currentSlide2(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo2 cursor" src="a.png" style="width:100%" onclick="currentSlide2(2)" alt="Snow">
+    </div>
+    <div class="column">
+      <img class="demo2 cursor" src="a.png" style="width:100%" onclick="currentSlide2(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo2 cursor" src="a.png" style="width:100%" onclick="currentSlide2(4)" alt="Northern Lights">
+    </div>
+  </div>
+</div>
+
+
+
+<!-- modal 3-->
+
+<!-- change ang tanan nga src into sa file name ka picture mo dapat pareho sa both ang pic-->
+<div id="myModal3" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <!-- eh copy paste lng and division kung madugang ka another picture-->
+    <div class="mySlides3">
+      <div class="numbertext">1 / 4</div>
+      <img src="graphic.png" style="width:100%">
+    </div>
+
+    <div class="mySlides3">
+      <div class="numbertext">2 / 4</div>
+      <img src="profilePic.png" style="width:100%">
+    </div>
+
+    <div class="mySlides3">
+      <div class="numbertext">3 / 4</div>
+      <img src="graphic.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides3">
+      <div class="numbertext">4 / 4</div>
+      <img src="profilePic.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption3"></p>
+    </div>
+
+    <!-- dapat pareho ang picture mo kung ano ang picture sa babaw ka jah .. kag eh copy paste man ang and div if mag dugang ka pic-->
+
+
+    <div class="column">
+      <img class="demo3 cursor" src="graphic.png" style="width:100%" onclick="currentSlide3(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo3 cursor" src="profilePic.png" style="width:100%" onclick="currentSlide3(2)" alt="Snow">
+    </div>
+    <div class="column">
+      <img class="demo3 cursor" src="graphic.png" style="width:100%" onclick="currentSlide3(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo3 cursor" src="profilePic.png" style="width:100%" onclick="currentSlide3(4)" alt="Northern Lights">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</section>
+
+
+<section id="contact">
+	<div class="contact">
+  <div class="container2">
+  	<div class="contact-panel">
+
+    <h2>Contact Us</h2>
+      <p>Get in touch with us through social media:</p>
+  <ul class="social-media-links">
+    <!-- contact icon-- change sa may src nga option kung gusto mo change ang icon and sa href is link ka mga socials mo-->
+    <li><a href="https://www.facebook.com/profile.php?id=100090473136672&mibextid=ZbWKwL"><img class="sns" src="fb.png"></a></li>
+
+    <li><a href="https://cictwvsu.com/"><img class="sns" src="www.png"></a></li>
+
+    <li><a href="https://www.youtube.com/channel/UC9Qx1YrfRIXXwrEjC2LBIEw"><img class="sns" src="yt.png"></a></li>
+
+    <li><a href="mailto:admission.cict@wvsu.edu"><img class="sns" src="email.png"></a></li>
+
+    
+  </ul>
+
+</div>
+
+  
+
+</section>
+
+<section id="footer">
+	<div>
+		<p>Entertainment and Multimedia Computing
+		 <br>© 2023 by EMC Students | Batch Icognito
+		 <br>West Visayas State University 
+		
+		 
+	</div>	</p>
+</section>
+
+<script>
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+function openModal2() {
+  document.getElementById("myModal2").style.display = "block";
+}
+function openModal3() {
+  document.getElementById("myModal3").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  document.getElementById("myModal2").style.display = "none";
+  document.getElementById("myModal3").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+showSlides2(slideIndex);
+showSlides3(slideIndex);
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function plusSlides2(n) {
+  showSlides2(slideIndex += n);
+}
+function plusSlides3(n) {
+  showSlides3(slideIndex += n);
+}
+
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function currentSlide2(n) {
+  showSlides2(slideIndex = n);
+}
+function currentSlide3(n) {
+  showSlides3(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+function showSlides2(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides2");
+  var dots = document.getElementsByClassName("demo2");
+  var captionText = document.getElementById("caption2");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+function showSlides3(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides3");
+  var dots = document.getElementsByClassName("demo3");
+  var captionText = document.getElementById("caption3");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+</script>
+
+</body>
+</html>
